@@ -23,7 +23,6 @@ const App = () => {
   function handleSearch(searchString) {
     setSearch(searchString);
   }
-
   function paginationHandle(pageCount) {
     setPagination((prevState) => ({
       ...pagination,

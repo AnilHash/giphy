@@ -1,3 +1,5 @@
+@use "../util/functions" as *;
+
 .modal {
     position: fixed;
     left: 0;
@@ -10,21 +12,21 @@
     justify-content: center;
 
     .modal-content {
-        width: 500px;
+        width: rem(500px);
         background-color: #fff;
     }
 
     .modal-header,
     .modal-footer {
-        padding: 10px;
+        padding: rem(10px);
     }
 
     .modal-title {
-        margin: 0;
+        text-align: center;
     }
 
     .modal-body {
-        padding: 10px;
+        padding: rem(10px);
         margin: auto;
         width: fit-content;
         border-top: 1px solid #eee;
