@@ -18,30 +18,36 @@
         }
     }
 
-    & input,
-    & button {
-        margin-right: 2vw;
-        height: 32px;
-    }
+    div {
+        display: flex;
+        align-items: center;
 
-    button {
-        width: fit-content;
-        padding: 0 .5rem;
-        max-width: 140px;
+        & input,
+        & button {
+            margin-right: 2vw;
+            height: 32px;
+        }
 
-        .material-symbols-outlined {
-            font-variation-settings:
-                'FILL' 0,
-                'wght' 700,
-                'GRAD' 0,
-                'opsz' 48
+        button {
+            width: fit-content;
+            padding: 0 .5rem;
+            max-width: 140px;
+
+            .material-symbols-outlined {
+                font-variation-settings:
+                    'FILL' 0,
+                    'wght' 700,
+                    'GRAD' 0,
+                    'opsz' 48
+            }
+        }
+
+        input {
+            min-width: 140px;
+
+            width: 20vw;
+            font-size: 1.2rem;
         }
     }
 
-    input {
-        min-width: 140px;
-
-        width: 20vw;
-        font-size: 1.5rem;
-    }
 }

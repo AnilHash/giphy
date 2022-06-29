@@ -13,7 +13,7 @@ const SearchBox = () => {
         placeholder="Type here..."
       />
       <button onClick={() => handleSearch(search)}>
-        <span class="material-symbols-outlined">search</span>
+        <span className="material-symbols-outlined">search</span>
       </button>
     </>
   );
