@@ -2,7 +2,6 @@ import React from "react";
 
 const Pagination = ({ pageInfo, paginationHandle }) => {
   const { total_count, offset, count } = pageInfo;
-  console.log(pageInfo);
   return (
     <div className="pagination">
       <div>
